@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main prints the size of various types
+ * main - prints the size of various C types
  * Return: 0
  */
 int main(void)
@@ -11,11 +11,10 @@ int main(void)
 	long int li;
 	long long int lli;
 	float f;
-	
-	puts("Size of char: %d byte(s)\n", size(c));
-	puts("Size of an int: %d byte(s)\n", sizeof(i));
-	puts("Size of a long int: %d byte(s)\n", sizeof(li));
-	puts("Size of a lon long int: %d byte(s)\n", sizeof(lli);
-	puts("Size of a float: %d byte(s)\n", size(f);
+	printf("Size of a char: %ld byte(s)\n", sizeof(c);
+	printf("Size of an int: %ld byte(s)\n", sizeof(i);
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li);
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli);
+	printf("Size of a float: %ld byte(s)\n", sizeof(f);
 	return (0);
 }
